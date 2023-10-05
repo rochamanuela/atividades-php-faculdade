@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 250px;
+        }
+
+        td, th {
+            border: 1px solid #3D2645;
+            padding: 5px;
+            padding-left: 10px;
+            font-size: 12px;
+            text-align: left;
+        }
+
+        th {
+            color: #fff;
+            background-color: #3D2645;
+            font-weight: 400;
+        }
+    </style>
+    <title>Exercício 9</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="../html/ex1.html">Exercício 01</a>
+        <a href="../html/ex2.html">Exercício 02</a>
+        <a href="../html/ex3.html">Exercício 03</a>
+        <a href="../html/ex4.html">Exercício 04</a>
+        <a href="../html/ex5.html">Exercício 05</a>
+        <a href="../html/ex6.html">Exercício 06</a>
+        <a href="../html/ex7.html">Exercício 07</a>
+        <a href="../html/ex8.html">Exercício 08</a>
+        <a href="../html/ex9.html"id="active">Exercício 09</a>
+        <a href="../html/ex10.html">Exercício 10</a>
+        <a href="../html/ex11.html">Exercício 11</a>
+        <a href="../html/ex12.html">Exercício 12</a>
+        <a href="../html/ex13.html">Exercício 13</a>
+    </div>
+    <div class="container">
+        <h2>Aumento Salarial</h2>
+        <p>Programa que calcula o novo salário de funcionários após aumento salarial, de acordo com o cargo</p>
+        <table>
+            <tr id="cabecalho">
+                <th>Código</th>
+                <th>Cargo</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Gerente</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Engenheiro</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Técnico</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Outro</td>
+            </tr>
+        </table>
+        <form action="../php/ex9.php" method="POST">
+            <label>Cargo: </label>
+            <input type="number" name="cargo" placeholder="Informe seu cargo por meio do código" required>
+
+            <label>Salário atual:</label>
+            <input type="number" name="salario" placeholder="Informe seu salário atualmente" required>
+            
+            <input type="submit" value="Calcular">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Raleway:wght@800&display=swap');
+
+* {
+    margin: 0
+}
+
+body {
+    color: #000;
+    background-color: #FFF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+    margin-bottom: 0;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 0;
+    position: fixed;
+    background-color: #fff;
+}
+
+.navbar a,
+.navbar p {
+    text-decoration: none;
+    color: #3D2645;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 11px 0 8px 0;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 0px;
+}
+
+.navbar p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a:hover {
+    font-weight: 800;
+    border-bottom: 2px solid black;
+}
+
+#active {
+    font-weight: 800;
+    border-bottom: 2px solid black;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+hr {
+    margin-top: 14px;
+}
+
+label {
+    color: black;
+    font-size: 13px;
+    margin-bottom: 4px;
+    margin-top: 14px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"] {
+    background-color: #f4f2ff;
+    border-radius: 0px;
+    border: none;
+    height: 40px;
+
+    color: #000000;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-indent: 17px;
+    border: 1.8px solid #f4f2ff;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border: 1.8px solid #17bebb;
+    background-color: #fff;
+}
+
+input[type="submit"] {
+    background-color: #17bebb;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    height: 50px;
+    width: 100%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    transition: .5s;
+    margin: auto;
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0b7c7a;
+}
+
+input::placeholder {
+    color: #A69DAD;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: #17bebb;
+}
+
+.leitura {
+    font-size: 14px;
+    width: 50%;
+    line-height: 21px;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+    z-index: 1;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #17bebb;
+    border-radius: 0px;
+    border: 8px solid 17bebb;
+}

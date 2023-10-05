@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="../html/ex1.html" id="active">Exercício 01</a>
+        <a href="../html/ex2.html">Exercício 02</a>
+        <a href="../html/ex3.html">Exercício 03</a>
+        <a href="../html/ex4.html">Exercício 04</a>
+        <a href="../html/ex5.html">Exercício 05</a>
+        <a href="../html/ex6.html">Exercício 06</a>
+        <a href="../html/ex7.html">Exercício 07</a>
+        <a href="../html/ex8.html">Exercício 08</a>
+        <a href="../html/ex9.html">Exercício 09</a>
+        <a href="../html/ex10.html">Exercício 10</a>
+        <a href="../html/ex11.html">Exercício 11</a>
+        <a href="../html/ex12.html">Exercício 12</a>
+        <a href="../html/ex13.html">Exercício 13</a>
+    </div>
+    <div class="container">
+        <h2>Média Acadêmica</h2>
+        <p>Programa que calcula a média aritimética de três notas acadêmicas.</p>
+        <form action="../php/ex1.php" method="POST">
+            <label>Nome: </label>
+            <input type="text" name="nome" placeholder="Digite seu nome" required>
+
+            <label>1ᵃ Nota:</label>
+            <input type="number" name="nota1" min="0" max="10" placeholder="Digite sua primeira nota" required>
+
+            <label>2ᵃ Nota:</label>
+            <input type="number" name="nota2" min="0" max="10" placeholder="Digite sua segunda nota" required>
+
+            <label>3ᵃ Nota:</label>
+            <input type="number" name="nota3" min="0" max="10" placeholder="Digite sua terceira nota" required>
+            
+            <input type="submit" value="Calcular">
+        </form>
+    </div>
+</body>
+</html>
